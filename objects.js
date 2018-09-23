@@ -1,6 +1,8 @@
 var playlist = {gyptian: 'one night'};
 
-function updatePlaylist(obj, artistName, songTitle) {
-    obj[artistName] = songTitle
-    return obj
+function updatePlaylist(playlist, artistName, songTitle) {
+    playlist[artistName] = songTitle
+    return playlist
 }
+
+// removeFromPlaylist(playlist, artistName)
